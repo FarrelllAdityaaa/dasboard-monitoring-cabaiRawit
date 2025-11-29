@@ -29,8 +29,8 @@ unsigned long lastSensorPublish = 0;
 const long sensorPublishInterval = 5000; // Kirim data tiap 5 detik
 
 // --- DATA WIFI ---
-const char* MY_SSID = "LAPTOP-4IDAUTP9 7983";
-const char* MY_PWD = "123123123";
+const char* MY_SSID = "LAPTOP-4IDAUTP9 7983"; // Sesuaikan WiFI nya
+const char* MY_PWD = "123123123"; // Sesuaikan WiFI nya
 
 // --- KONFIGURASI MQTT ---
 const char *mqtt_broker = "broker.hivemq.com";
